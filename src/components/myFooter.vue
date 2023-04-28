@@ -45,8 +45,9 @@ export default {
 
 .countdown p {
     font-size: 20px;
-    font-family: "Roboto Light", sans-serif;
-    font-weight: lighter;
+    font-family: "Roboto Thin", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0, 0.6);
     margin: 0;
 }
 
