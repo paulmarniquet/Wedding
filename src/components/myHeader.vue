@@ -31,7 +31,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
