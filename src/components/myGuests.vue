@@ -42,12 +42,13 @@ export default {
 
 .informations p {
     font-family: "Roboto Regular", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .informations h1 {
-    font-family: "Roboto Regular", sans-serif;
+    font-family: "Venarotta", sans-serif;
     font-size: 40px;
+    font-weight: 1000;
     margin: 10px 0;
 }
 
@@ -64,7 +65,7 @@ hr {
 .myVenue {
     position: relative;
     width: 25%;
-    height: 100%;
+    height: auto;
     margin-left: 20%;
 }
 
@@ -72,14 +73,14 @@ hr {
     position: relative;
     width: 25%;
     height: auto;
-    left: 40%;
+    left: 39%;
 }
 
 .myLodging {
     position: relative;
-    width: 25%;
+    width: 20%;
     height: auto;
-    left: 60%;
+    left: 65%;
 }
 
 .infos {

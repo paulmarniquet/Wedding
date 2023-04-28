@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .myFooter {
-    top: 200px;
+    top: 300px;
     position: relative;
     width: 100%;
     height: auto;
@@ -44,13 +44,14 @@ export default {
 }
 
 .countdown p {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Roboto Light", sans-serif;
+    font-weight: lighter;
     margin: 0;
 }
 
 .countdown h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Roboto Regular", sans-serif;
     margin: 0;
 }

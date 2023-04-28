@@ -49,7 +49,8 @@ h1 {
     font-size: 110px;
     text-align: left;
     margin: 10% 20%;
-    font-family: 'Playfair Display', serif;
+    font-family: "Venarotta", sans-serif;
+    font-weight: lighter;
 }
 
 .circles {

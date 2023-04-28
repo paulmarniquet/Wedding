@@ -27,10 +27,6 @@ p {
     text-align: center;
 }
 
-.symbol {
-    font-weight: lighter;
-}
-
 .white {
     position: relative;
     top: 0;
