@@ -7,7 +7,7 @@
                 <p>the date</p>
                 <hr>
                 <h1>Monday</h1>
-                <h1>October 13</h1>
+                <h1>October 28</h1>
                 <h1>2023</h1>
         </div>
         <div class="disposition2">

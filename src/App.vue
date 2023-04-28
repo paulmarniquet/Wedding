@@ -1,8 +1,11 @@
 <template>
     <div id="app">
-    <myHeader/>
-    <myTitle/>
-    <myInformations/>
+        <myHeader/>
+        <myTitle/>
+        <myInformations/>
+        <myPicture/>
+        <myGuests/>
+        <myFooter/>
     </div>
 </template>
 
@@ -10,6 +13,9 @@
 import myHeader from "@/components/myHeader.vue";
 import myTitle from "@/components/myTitle.vue";
 import myInformations from "@/components/myInformations.vue";
+import myPicture from "@/components/myPicture.vue";
+import myGuests from "@/components/myGuests.vue";
+import myFooter from "@/components/myFooter.vue";
 
 export default {
     name: 'App',
@@ -17,6 +23,9 @@ export default {
         myHeader,
         myTitle,
         myInformations,
+        myPicture,
+        myGuests,
+        myFooter
     }
 }
 </script>
@@ -26,7 +35,7 @@ export default {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-   /* color: #2c3e50;*/
+    color: #2c3e50;
     width: 100%;
     height: 100%;
 }
