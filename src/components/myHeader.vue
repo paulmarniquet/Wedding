@@ -1,13 +1,14 @@
 <template>
+    <div class="white"></div>
     <div class="header">
         <div class="initials">
-            <p>z</p>
-            <p>&</p>
-            <p>t</p>
+            <p>Z</p>
+            <p class="symbol">&</p>
+            <p>T</p>
         </div>
         <div class="date">
             <p>10</p>
-            <p>/</p>
+            <p class="symbol">/</p>
             <p>12</p>
         </div>
     </div>
@@ -26,8 +27,20 @@ p {
     text-align: center;
 }
 
-.header {
+.symbol {
+    font-weight: lighter;
+}
+
+.white {
     position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+}
+
+.header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
