@@ -23,7 +23,7 @@ export default {
 <style scoped>
 
 .myTitle {
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 0;
     width: 100%;
