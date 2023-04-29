@@ -1,6 +1,6 @@
 <template>
     <div class="myTitle">
-        <div class="title">
+        <div class="title" v-motion :initial="{opacity: 0}" :enter="{ opacity: 1, transition: { opacity: {duration: 1600}}}">
             <h1>marry wednesday.</h1>
         </div>
         <div class="circles">
@@ -21,7 +21,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .myTitle {
     position: relative;
     top: 30%;
@@ -33,7 +32,6 @@ export default {
     justify-content: center;
     align-items: center;
 }
-
 .title {
     position: relative;
     width: 50%;
@@ -43,7 +41,6 @@ export default {
     justify-content: center;
     align-items: center;
 }
-
 h1 {
     position: relative;
     font-size: 110px;

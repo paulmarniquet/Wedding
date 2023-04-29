@@ -1,6 +1,8 @@
 <template>
     <div class="informations">
-        <div class="myVenue">
+        <div class="myVenue" v-motion
+             :initial="{opacity: 0,y: 100}"
+             :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 100 }}">
                 <p>the venue</p>
                 <hr>
                 <h1>123</h1>
@@ -8,14 +10,18 @@
                 <h1>Wataru</h1>
                 <h1>Kyoto</h1>
         </div>
-        <div class="myAirport">
+        <div class="myAirport" v-motion
+             :initial="{opacity: 0,y: 100}"
+             :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 300 }}">
                 <p>the airport</p>
                 <hr>
                 <h1>Kyoto</h1>
                 <h1>International</h1>
                 <h1>Airport</h1>
         </div>
-        <div class="myLodging">
+        <div class="myLodging" v-motion
+             :initial="{opacity: 0,y: 100}"
+             :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 500 }}">
                 <p>the lodging</p>
                 <hr>
                 <h1>Sotono</h1>

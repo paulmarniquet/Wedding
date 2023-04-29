@@ -1,5 +1,5 @@
 <template>
-    <div class="picture">
+    <div class="picture" v-motion-fade-visible>
         <h1>kyoto</h1>
         <img src="../assets/example.jpg">
     </div>

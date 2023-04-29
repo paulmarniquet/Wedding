@@ -3,19 +3,23 @@
         <p>Join the celebration as Zoe and Taisuke say "I do" on the beautiful coast of Kyoto.</p>
     </div>
     <div class="informations">
-        <div class="disposition">
-                <p>the date</p>
-                <hr>
-                <h1>Monday</h1>
-                <h1>October 28</h1>
-                <h1>2023</h1>
+        <div class="disposition" v-motion
+             :initial="{opacity: 0,y: 100}"
+             :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 100 }}">
+            <p>the date</p>
+            <hr>
+            <h1>Monday</h1>
+            <h1>October 28</h1>
+            <h1>2023</h1>
         </div>
-        <div class="disposition2">
-                <p>the place</p>
-                <hr>
-                <h1>123</h1>
-                <h1>Fujimota</h1>
-                <h1>Haraju</h1>
+        <div class="disposition2" v-motion
+             :initial="{opacity: 0,y: 100}"
+             :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 300 }}">
+            <p>the place</p>
+            <hr>
+            <h1>123</h1>
+            <h1>Fujimota</h1>
+            <h1>Haraju</h1>
         </div>
     </div>
 </template>

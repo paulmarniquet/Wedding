@@ -96,6 +96,6 @@ $ease: cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 50%;
   background-color: #2f2f2f;
   transform: translate(-100%, -100%);
-  transition: transform 0.2s $ease;
+  transition: transform 0.3s $ease;
 }
 </style>
