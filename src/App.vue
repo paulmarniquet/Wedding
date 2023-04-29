@@ -1,11 +1,11 @@
 <template>
     <div id="app">
         <custom-cursor
-            :targets="[ 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a', 'button', 'input', 'textarea', 'span', 'div', 'li', 'ul', 'ol', 'img' ]"
+            :targets="[ 'p', 'h1' ]"
             :circleColor="'#fff'"
             :circleColorHover="'#2f2f2f'"
-            :dotColor="'#2f2f2f'"
-            :dotColorHover="'red'"
+            :dotColor="'rgba(188,0,45,0.7)'"
+            :dotColorHover="'rgba(188,0,45,255)'"
             :hoverSize="1.3"
         ></custom-cursor>
         <myHeader/>
@@ -53,5 +53,9 @@ export default {
 
 #app p, h1 {
     user-select: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 </style>

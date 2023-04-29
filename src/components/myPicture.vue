@@ -1,6 +1,23 @@
 <template>
-    <div class="picture" v-motion-fade-visible>
-        <h1>kyoto</h1>
+    <div class="picture">
+        <div class="place">
+        <h1 v-motion
+            :initial="{opacity: 0,x: 10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800 }}"
+        >k</h1>
+        <h1 v-motion
+            :initial="{opacity: 0,x: -10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 10 }}">y</h1>
+        <h1 v-motion
+            :initial="{opacity: 0,x: 10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 20 }}">o</h1>
+        <h1 v-motion
+            :initial="{opacity: 0,x: -10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 30 }}">t</h1>
+        <h1 v-motion
+            :initial="{opacity: 0,x: 10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 40 }}">o</h1>
+        </div>
         <img src="../assets/example.jpg">
     </div>
 </template>
@@ -18,17 +35,26 @@ export default {
     margin-top: 15%;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .picture img {
+    margin: 0;
     position: relative;
     width: 50%;
     height: auto;
-    margin-right: 150px;
+    right: 350px;
+}
+
+.place {
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {

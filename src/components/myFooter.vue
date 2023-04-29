@@ -6,11 +6,11 @@
         </div>
         <hr>
         <div class="circles">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="circle" style="background-color: rgba(255, 251, 150, 0.3)"></div>
+            <div class="circle" style="background-color: rgba(255, 219, 150, 0.4)"></div>
+            <div class="circle" style="background-color: rgba(255, 177, 150, 0.5)"></div>
+            <div class="circle" style="background-color: rgba(255, 153, 150, 0.6)"></div>
+            <div class="circle" style="background-color: rgba(253, 26, 19, 0.5)"></div>
         </div>
     </div>
 </template>
@@ -83,7 +83,6 @@ hr {
     margin: 1%;
     width: 20px;
     height: 20px;
-    border: 1px solid black;
     border-radius: 50%;
 }
 </style>
