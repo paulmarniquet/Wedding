@@ -1,7 +1,7 @@
 <template>
     <div class="myTitle">
         <div class="title" v-motion :initial="{opacity: 0}" :enter="{ opacity: 1, transition: { opacity: {duration: 1600}}}">
-            <h1>marry wednesday.</h1>
+            <h1>marry wednesday</h1>
         </div>
         <div class="circles">
             <div class="circle" style="background-color: rgba(255, 251, 150, 0.3)"></div>

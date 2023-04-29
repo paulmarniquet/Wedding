@@ -7,9 +7,9 @@
             <p>T</p>
         </div>
         <div class="date">
-            <p>10</p>
+            <p>28</p>
             <p class="symbol">/</p>
-            <p>12</p>
+            <p>10</p>
         </div>
     </div>
 </template>
