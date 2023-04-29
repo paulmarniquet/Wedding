@@ -1,7 +1,9 @@
 <template>
     <div class="myFooter">
         <div class="countdown">
-            <h1>21 08 32 12</h1>
+            <vue-countdown :time="182 * 24 * 60 * 60 * 1000" v-slot="{ days, hours, minutes, seconds }">
+                <h1> {{ days }} {{ hours }} {{ minutes }} {{ seconds }} </h1>
+            </vue-countdown>
             <p>DAYS HOURS MINUTES SECONDS</p>
         </div>
         <hr>
