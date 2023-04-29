@@ -57,6 +57,10 @@ export default {
     font-family: "Roboto Regular", sans-serif;
     font-size: 24px;
     letter-spacing: 2px;
+    background-image: url("../assets/blue.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
 }
 
 .informations p {

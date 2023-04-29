@@ -32,6 +32,7 @@ export default {
     justify-content: center;
     align-items: center;
 }
+
 .title {
     position: relative;
     width: 50%;

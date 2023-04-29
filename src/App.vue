@@ -49,6 +49,9 @@ export default {
     width: 100%;
     height: 100%;
     cursor: none;
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 #app p, h1 {

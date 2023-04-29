@@ -64,6 +64,7 @@ h1 {
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-family: 'Playfair Display', serif;
+
 }
 
 </style>
