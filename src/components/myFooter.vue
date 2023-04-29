@@ -1,7 +1,7 @@
 <template>
     <div class="myFooter">
         <div class="countdown">
-            <h1>21 08 32 12</h1>
+            <h1>{{ countdownText }}</h1>
             <p>DAYS HOURS MINUTES SECONDS</p>
         </div>
         <hr>
@@ -17,7 +17,24 @@
 
 <script>
 export default {
-    name: 'myFooter'
+    name: 'myFooter',
+    data() {
+        return {
+            countdownText: '',
+            countDownDate: new Date("Oct 28, 2023 18:00:00").getTime()
+        }
+    },
+    mounted() {
+        setInterval(() => {
+            const now = new Date().getTime();
+            const timeleft = this.countDownDate - now;
+            const days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+            this.countdownText = `${days} ${hours} ${minutes} ${seconds}`;
+        }, 1000);
+    },
 }
 </script>
 
