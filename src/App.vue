@@ -41,6 +41,11 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: "Venarotta";
+    src: local("Venarotta"),
+    url("assets/Venarotta-Regular.ttf") format("truetype");
+}
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
