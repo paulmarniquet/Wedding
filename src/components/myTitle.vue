@@ -1,11 +1,11 @@
 <template>
     <div class="myTitle">
         <div class="title" v-motion :initial="{opacity: 0}"
-             :enter="{ opacity: 1, transition: { opacity: {duration: 2000, delay: 2600}}}">
+             :enter="{ opacity: 1, transition: { opacity: {duration: 2000, delay: 3000}}}">
             <h1>marry wednesday</h1>
         </div>
         <div class="hidden-text" v-motion :initial="{opacity: 1}"
-             :enter="{ opacity: 0, transition: { opacity: {duration: 160, delay: 2400}}}">
+             :enter="{ opacity: 0, transition: { opacity: {duration: 300, delay: 2400}}}">
             <span v-motion :initial="{opacity: 0}"
                   :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1000}}}">水</span>
             <span v-motion :initial="{opacity: 0}"
