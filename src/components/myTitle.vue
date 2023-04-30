@@ -45,13 +45,13 @@ export default {
 .hidden-text {
     width: 20%;
     height: auto;
-    position: fixed;
+    position: absolute;
     font-size: 25px;
     font-family: "Venarotta", sans-serif;
     font-weight: 100;
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
-    top: 40%;
+    top: 22%;
 }
 
 
