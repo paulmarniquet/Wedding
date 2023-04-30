@@ -44,7 +44,7 @@ export default {
     position: relative;
     width: 50%;
     height: auto;
-    right: 350px;
+    right: 270px;
 }
 
 .place {
