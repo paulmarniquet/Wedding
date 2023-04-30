@@ -1,19 +1,28 @@
 <template>
     <div class="myTitle">
         <div class="title" v-motion :initial="{opacity: 0}"
-             :enter="{ opacity: 1, transition: { opacity: {duration: 1600}}}">
+             :enter="{ opacity: 1, transition: { opacity: {duration: 2000, delay: 2600}}}">
             <h1>marry wednesday</h1>
         </div>
-        <h1 class="hidden-text">
-            <span class="hidden-text1" ref="hiddenText1">水</span>
-            <span class="hidden-text2" ref="hiddenText2">曜</span>
-            <span class="hidden-text3" ref="hiddenText3">日</span>
-            <span class="hidden-text4" ref="hiddenText4">に</span>
-            <span class="hidden-text5" ref="hiddenText5">結</span>
-            <span class="hidden-text6" ref="hiddenText6">婚</span>
-            <span class="hidden-text7" ref="hiddenText7">す</span>
-            <span class="hidden-text8" ref="hiddenText8">る</span>
-        </h1>
+        <div class="hidden-text" v-motion :initial="{opacity: 1}"
+             :enter="{ opacity: 0, transition: { opacity: {duration: 160, delay: 2400}}}">
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1000}}}">水</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1100}}}">曜</span>
+            <span v-motion :initial="{opacity: 0}"
+                          :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1200}}}">日</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1300}}}">に</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1400}}}">結</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1500}}}">婚</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1600}}}">す</span>
+            <span v-motion :initial="{opacity: 0}"
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1700}}}">る</span>
+        </div>
         <div class="circles">
             <div class="circle" style="background-color: rgba(255, 251, 150, 0.3)"></div>
             <div class="circle" style="background-color: rgba(255, 219, 150, 0.4)"></div>
@@ -27,12 +36,6 @@
 <script>
 export default {
     name: 'myTitle',
-    methods: {
-        showHiddenText() {
-        },
-        hideHiddenText() {
-        }
-    }
 }
 </script>
 
@@ -40,19 +43,15 @@ export default {
 <style scoped>
 
 .hidden-text {
-    position: fixed;
-    top: 10%;
-    left: 0;
-    width: 60%;
+    width: 20%;
     height: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
-    text-align: left;
-    margin: 10% 20%;
+    position: fixed;
+    font-size: 25px;
     font-family: "Venarotta", sans-serif;
-    font-weight: lighter;
-    color: transparent;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    top: 40%;
 }
 
 
