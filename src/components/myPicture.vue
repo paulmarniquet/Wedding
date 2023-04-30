@@ -43,7 +43,7 @@ export default {
     margin: 0;
     position: relative;
     width: 50%;
-    height: auto;
+    right: 270px;
 }
 
 .place {
