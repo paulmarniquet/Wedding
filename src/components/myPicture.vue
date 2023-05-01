@@ -22,7 +22,22 @@
             <h1 v-motion
             :initial="{opacity: 0,x: 10}"
             :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 60 }}">a</h1>
-        </div>
+
+            <div class="japaneseTitle">
+            <h1 v-motion
+                :initial="{opacity: 0,x: 0}"
+                :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 2000 }}">小</h1>
+            <h1 v-motion
+                :initial="{opacity: 0,x: 0}"
+                :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 2050 }}">田</h1>
+            <h1 v-motion
+                :initial="{opacity: 0,x: 0}"
+                :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 2100 }}">原</h1>
+            <h1 v-motion
+                :initial="{opacity: 0,x: 0}"
+                :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 2150 }}">市</h1>
+            </div>
+            </div>
         <img src="../assets/odawara.jpg">
     </div>
 </template>
@@ -70,6 +85,24 @@ h1 {
     text-align: left;
     font-family: "Hypereality", sans-serif;
     margin: 0;
+    color: rgba(0,0,0, 0.7);
+}
+
+.japaneseTitle {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    margin-right: 25%;
+    z-index: -991;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+}
+
+.japaneseTitle h1 {
+    font-size: 60px;
+    text-align: left;
+    font-family: "Hypereality", sans-serif;
+    margin: 0;
+    color: rgba(255, 255,255, 0.1);
 }
 
 </style>
