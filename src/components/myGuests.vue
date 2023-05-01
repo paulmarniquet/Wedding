@@ -3,29 +3,29 @@
         <div class="myVenue" v-motion
              :initial="{opacity: 0,y: 100}"
              :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 100 }}">
-                <p>the venue</p>
-                <hr>
-                <h1>123</h1>
-                <h1>Fujino</h1>
-                <h1>Wataru</h1>
-                <h1>Kyoto</h1>
+            <p>the venue</p>
+            <hr>
+            <h1>8-10 Jonai, Odawara</h1>
+            <h1>Kanagawa 250-0014</h1>
+            <p class="stationJapanese">報徳二宮神社</p>
+
         </div>
         <div class="myAirport" v-motion
              :initial="{opacity: 0,y: 100}"
              :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 300 }}">
-                <p>the airport</p>
-                <hr>
-                <h1>Kyoto</h1>
-                <h1>International</h1>
-                <h1>Airport</h1>
+            <p>the station</p>
+            <hr>
+            <h1>Odawara Station</h1>
+            <p class="stationJapanese">小田原駅</p>
         </div>
         <div class="myLodging" v-motion
              :initial="{opacity: 0,y: 100}"
              :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 500 }}">
-                <p>the lodging</p>
-                <hr>
-                <h1>Sotono</h1>
-                <h2 class="infos">We recommend that guests stay near King's Beach, CA on the north shore of Lake Tahoe near or at Tahoe Vistana Inn.</h2>
+            <p>the lodging</p>
+            <hr>
+            <h1>Odawara Ryokan</h1>
+            <p class="stationJapanese">小田原旅館</p>
+            <h2 class="infos">We recommend that guests stay near to Odawara Castle.</h2>
         </div>
     </div>
 </template>
@@ -45,10 +45,9 @@ export default {
     height: auto;
 }
 
-
 .informations p {
     font-family: "Roboto Regular", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .informations h1 {
@@ -79,7 +78,8 @@ hr {
     position: relative;
     width: 25%;
     height: auto;
-    left: 39%;
+    left: 42%;
+    margin-top: 4%;
 }
 
 .myLodging {
@@ -87,6 +87,7 @@ hr {
     width: 20%;
     height: auto;
     left: 65%;
+    margin-top: 4%;
 }
 
 .infos {
@@ -94,6 +95,19 @@ hr {
     font-size: 17px;
     font-weight: lighter;
     color: darkgrey;
+}
+
+.stationJapanese {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #2c3e50;
+    letter-spacing: 30px;
+}
+
+.myLodging hr {
+    width: 18%;
+    height: 1.5px;
 }
 
 

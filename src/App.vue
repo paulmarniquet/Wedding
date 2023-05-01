@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <custom-cursor
-            :targets="[ 'p', 'h1' ]"
+            :targets="[ 'location', 'place', 'theplace', 'date']"
             :circleColor="'#fff'"
             :circleColorHover="'#2f2f2f'"
             :dotColor="'rgba(188,0,45,0.7)'"
@@ -48,6 +48,7 @@ export default {
 }
 
 #app {
+    margin: 0;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -57,7 +58,8 @@ export default {
     cursor: none;
     background-image: url("assets/background.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: -1450px 1500px;
+
 }
 
 #app p, h1 {

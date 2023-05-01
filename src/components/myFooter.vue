@@ -21,7 +21,7 @@ export default {
     data() {
         return {
             countdownText: '',
-            countDownDate: new Date("Oct 28, 2023 18:00:00").getTime()
+            countDownDate: new Date("Oct 28, 2023 00:00:00").getTime()
         }
     },
     mounted() {
@@ -42,7 +42,7 @@ export default {
 <style scoped>
 
 .myFooter {
-    top: 300px;
+    margin-top: 300px;
     position: relative;
     width: 100%;
     height: auto;

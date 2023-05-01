@@ -3,22 +3,27 @@
         <div class="place">
         <h1 v-motion
             :initial="{opacity: 0,x: 10}"
-            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800 }}"
-        >k</h1>
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800 }}">o</h1>
         <h1 v-motion
             :initial="{opacity: 0,x: -10}"
-            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 10 }}">y</h1>
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 10 }}">d</h1>
         <h1 v-motion
             :initial="{opacity: 0,x: 10}"
-            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 20 }}">o</h1>
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 20 }}">a</h1>
         <h1 v-motion
             :initial="{opacity: 0,x: -10}"
-            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 30 }}">t</h1>
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 30 }}">w</h1>
         <h1 v-motion
             :initial="{opacity: 0,x: 10}"
-            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 40 }}">o</h1>
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 40 }}">a</h1>
+            <h1 v-motion
+            :initial="{opacity: 0,x: -10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 50 }}">r</h1>
+            <h1 v-motion
+            :initial="{opacity: 0,x: 10}"
+            :visibleOnce="{ opacity: 1, x: 0,transition: { duration: 800, delay: 60 }}">a</h1>
         </div>
-        <img src="../assets/example.jpg">
+        <img src="../assets/odawara.jpg">
     </div>
 </template>
 
@@ -37,12 +42,15 @@ export default {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture img {
     margin: 0;
     position: relative;
     width: 50%;
+    height: 50%;
     right: 270px;
 }
 
@@ -58,12 +66,10 @@ export default {
 
 h1 {
     position: relative;
-    font-size: 110px;
+    font-size: 80px;
     text-align: left;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-family: 'Playfair Display', serif;
-
+    font-family: "Hypereality", sans-serif;
+    margin: 0;
 }
 
 </style>

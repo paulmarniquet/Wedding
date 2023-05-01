@@ -1,33 +1,36 @@
 <template>
     <div class="phrase">
-        <p>Join the celebration as Zoe and Taisuke say "I do" on the beautiful coast of Kyoto.</p>
+        <p>Join the celebration as Zoe and Taisuke say "I do" in the beautiful Odawara Castle.</p>
     </div>
     <div class="informations">
         <div class="disposition">
             <p v-motion
                :initial="{opacity: 0,y: 100}"
-               :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 800 }}">the date</p>
+               :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 800 }}" class="theplace">the date</p>
             <hr>
             <div v-motion
                  :initial="{opacity: 0,y: 100}"
                  :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 50 }}">
-            <h1>Monday</h1>
-            <h1>October 28</h1>
-            <h1>2023</h1>
-                </div>
+                <h1 class="date">Saturday</h1>
+                <h1 class="date">October 28</h1>
+                <h1 class="date">2023</h1>
+            </div>
         </div>
         <div class="disposition2">
-            <p  v-motion
-                :initial="{opacity: 0,y: 100}"
-                :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 800 }}">the place</p>
+            <p v-motion
+               :initial="{opacity: 0,y: 100}"
+               :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 800 }}" class="theplace">the place</p>
             <hr>
             <div v-motion
                  :initial="{opacity: 0,y: 100}"
                  :visibleOnce="{ opacity: 1, y: 0,transition: { duration: 1000, delay: 50 }}">
-            <h1>123</h1>
-            <h1>Fujimota</h1>
-            <h1>Haraju</h1>
+                <h1 class="place">Hotoku</h1>
+                <h1 class="place">Ninomiya</h1>
+                <h1 class="place">Shrine</h1>
+                <div class="linked">
+                <a href="https://goo.gl/maps/FTX8EaGManJKhRmq8" class="location">8-10 Jonai, Odawara Kanagawa 250-0014</a>
                 </div>
+            </div>
         </div>
     </div>
 </template>
@@ -45,6 +48,7 @@ export default {
     position: relative;
     width: 100%;
     height: 100%;
+    margin-top: 7%;
 }
 
 .phrase {
@@ -63,9 +67,9 @@ export default {
     background-size: 25%;
 }
 
-.informations p {
+.theplace {
     font-family: "Roboto Regular", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 hr {
@@ -92,11 +96,33 @@ hr {
     left: 60%;
 }
 
+.location {
+    margin: 0;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: rgb(44, 62, 80, 0.8);
+    text-decoration: none;
+}
+
+.location:hover {
+    color: rgba(188,0,45,255);
+}
+
 h1 {
     font-family: "Venarotta", sans-serif;
     font-size: 40px;
     font-weight: 1000;
     margin: 10px 0;
+}
+
+.linked {
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 </style>
