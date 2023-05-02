@@ -11,7 +11,7 @@
             <span v-motion :initial="{opacity: 0}"
                   :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1100}}}">曜</span>
             <span v-motion :initial="{opacity: 0}"
-                          :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1200}}}">日</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1200}}}">日</span>
             <span v-motion :initial="{opacity: 0}"
                   :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1300}}}">に</span>
             <span v-motion :initial="{opacity: 0}"
@@ -53,7 +53,6 @@ export default {
     color: rgba(0, 0, 0, 0.7);
     top: 22%;
 }
-
 
 .myTitle {
     position: relative;
@@ -102,4 +101,23 @@ h1 {
     height: 20px;
     border-radius: 50%;
 }
+
+@media (max-width: 415px) {
+    h1 {
+        font-size: 60px;
+    }
+    span {
+        font-size: 20px;
+    }
+    .hidden-text {
+        width: 50%;
+        top: 20%;
+    }
+    .circle {
+        margin: 1%;
+        width: 10px;
+        height: 10px;
+    }
+}
+
 </style>

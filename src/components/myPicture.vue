@@ -105,4 +105,21 @@ h1 {
     color: rgba(255, 255,255, 0.1);
 }
 
+@media (max-width: 415px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .japaneseTitle h1 {
+        font-size: 30px;
+        right: 10%;
+    }
+
+    .picture img {
+        width: 50%;
+        height: auto;
+        right: 10%;
+    }
+}
+
 </style>

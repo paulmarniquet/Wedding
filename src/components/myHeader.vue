@@ -60,4 +60,11 @@ p {
     margin: 5%;
 }
 
+@media (max-width: 415px) {
+    p {
+        font-size: 12px;
+    }
+}
+
+
 </style>

@@ -125,4 +125,42 @@ h1 {
     align-items: center;
 }
 
+@media (max-width: 415px) {
+    .phrase p {
+        font-size: 12px;
+    }
+
+    .phrase {
+        text-align: center;
+        margin-top: 20%;
+        width: 250px;
+        height: 250px;
+        margin-left: calc(50% - 125px);
+        background-size: 50%;
+    }
+
+    .informations p{
+        font-size: 12px;
+    }
+
+    .informations h1{
+        font-size: 20px;
+    }
+
+    .informations a {
+        font-size: 12px;
+    }
+
+    .disposition {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    .disposition2 {
+        left: 55%;
+        width: 45%;
+    }
+}
+
+
 </style>
