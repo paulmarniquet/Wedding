@@ -168,7 +168,7 @@ h1 {
 
 @media (min-width: 768px ) and (max-width: 1024px) {
     .phrase p {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .phrase {

@@ -116,7 +116,7 @@ hr {
         margin-top: 30%;
     }
 
-    .informations p{
+    .informations p {
         font-size: 12px;
     }
 
@@ -124,7 +124,7 @@ hr {
         width: 100px;
     }
 
-    .informations h1{
+    .informations h1 {
         font-size: 20px;
     }
 
@@ -144,18 +144,22 @@ hr {
 
 @media (min-width: 768px ) and (max-width: 1024px) {
 
-      .myLodging {
-          width: 200px;
-      }
+    .informations {
+        margin-top: 30%;
+    }
 
-      .stationJapanese {
-          font-size: 12px;
-          letter-spacing: 2px;
-      }
+    .myLodging {
+        width: 200px;
+    }
 
-      .infos {
-          font-size: 15px;
-      }
+    .stationJapanese {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .infos {
+        font-size: 15px;
+    }
 }
 
 
