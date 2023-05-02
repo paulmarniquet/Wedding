@@ -109,11 +109,11 @@ hr {
     }
 
     .countdown h1 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .countdown p {
-        font-size: 15px;
+        font-size: 14px;
         letter-spacing: 1px;
     }
 

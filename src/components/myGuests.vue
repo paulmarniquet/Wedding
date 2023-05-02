@@ -116,6 +116,10 @@ hr {
         font-size: 12px;
     }
 
+    .myLodging {
+        width: 100px;
+    }
+
     .informations h1{
         font-size: 20px;
     }
@@ -126,11 +130,11 @@ hr {
 
     .stationJapanese {
         font-size: 10px;
-        letter-spacing: 10px;
+        letter-spacing: 2px;
     }
 
     .infos {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 

@@ -59,7 +59,6 @@ export default {
     background-image: url("assets/background.png");
     background-repeat: no-repeat;
     background-position: -1450px 1500px;
-
 }
 
 #app p, h1 {
@@ -69,4 +68,11 @@ export default {
 body::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width: 415px) {
+    #app {
+        background-position: center;
+    }
+}
+
 </style>

@@ -157,8 +157,12 @@ h1 {
     }
 
     .disposition2 {
-        left: 55%;
+        left: 53%;
         width: 45%;
+    }
+
+    .linked {
+        width: 95%;
     }
 }
 
