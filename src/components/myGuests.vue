@@ -111,17 +111,6 @@ hr {
 }
 
 @media (max-width: 415px) {
-    .phrase p {
-        font-size: 12px;
-    }
-
-    .phrase {
-        text-align: center;
-        margin-top: 20%;
-        width: 250px;
-        margin-left: calc(50% - 125px);
-        background-size: 50%;
-    }
 
     .informations p{
         font-size: 12px;
@@ -135,14 +124,13 @@ hr {
         font-size: 12px;
     }
 
-    .disposition {
-        margin-left: 20%;
-        width: 60%;
+    .stationJapanese {
+        font-size: 10px;
+        letter-spacing: 10px;
     }
 
-    .disposition2 {
-        left: 60%;
-        width: 60%;
+    .infos {
+        font-size: 10px;
     }
 }
 

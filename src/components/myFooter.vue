@@ -102,4 +102,26 @@ hr {
     height: 20px;
     border-radius: 50%;
 }
+
+@media (max-width: 415px) {
+    .myFooter {
+        margin-top: 100px;
+    }
+
+    .countdown h1 {
+        font-size: 15px;
+    }
+
+    .countdown p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .circle {
+        margin: 1%;
+        width: 10px;
+        height: 10px;
+    }
+}
+
 </style>

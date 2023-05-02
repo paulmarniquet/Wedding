@@ -112,11 +112,12 @@ h1 {
 
     .japaneseTitle h1 {
         font-size: 30px;
-        right: 10%;
+        left: 0;
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
     }
 
     .picture img {
-        width: 50%;
+        width: 60%;
         height: auto;
         right: 10%;
     }
