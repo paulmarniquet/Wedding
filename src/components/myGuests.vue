@@ -138,5 +138,21 @@ hr {
     }
 }
 
+@media (min-width: 768px ) and (max-width: 1024px) {
+
+      .myLodging {
+          width: 200px;
+      }
+
+      .stationJapanese {
+          font-size: 12px;
+          letter-spacing: 2px;
+      }
+
+      .infos {
+          font-size: 15px;
+      }
+}
+
 
 </style>

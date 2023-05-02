@@ -166,5 +166,29 @@ h1 {
     }
 }
 
+@media (min-width: 768px ) and (max-width: 1024px) {
+    .phrase p {
+        font-size: 17px;
+    }
+
+    .phrase {
+        text-align: center;
+        margin-top: 20%;
+        width: 600px;
+        height: 400px;
+        margin-left: calc(50% - 300px);
+    }
+
+    .disposition2 {
+        left: 51%;
+        width: 50%;
+    }
+
+    .disposition {
+        margin-left: 20%;
+        width: 60%;
+    }
+}
+
 
 </style>

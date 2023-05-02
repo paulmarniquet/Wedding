@@ -123,4 +123,26 @@ h1 {
     }
 }
 
+@media (min-width: 768px ) and (max-width: 1024px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .japaneseTitle h1 {
+        font-size: 40px;
+        left: 0;
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .picture img {
+        width: 60%;
+        height: auto;
+        right: 10%;
+    }
+
+    .picture {
+        margin-top: 25%;
+    }
+}
+
 </style>
