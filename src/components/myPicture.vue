@@ -121,6 +121,10 @@ h1 {
         height: auto;
         right: 10%;
     }
+
+    .picture {
+        margin-top: 30%;
+    }
 }
 
 @media (min-width: 768px ) and (max-width: 1024px) {

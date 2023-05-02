@@ -112,6 +112,10 @@ hr {
 
 @media (max-width: 415px) {
 
+    .informations {
+        margin-top: 30%;
+    }
+
     .informations p{
         font-size: 12px;
     }
