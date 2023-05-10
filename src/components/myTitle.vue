@@ -98,8 +98,13 @@ h1 {
 
 @media (max-width: 415px) {
     h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
+
+    .title h1 {
+        margin: 20% 5%;
+    }
+
     span {
         font-size: 20px;
     }
@@ -111,6 +116,24 @@ h1 {
         margin: 1%;
         width: 10px;
         height: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    .title h1 {
+        margin: 20% 5%;
+    }
+
+    span {
+        font-size: 20px;
+    }
+    .hidden-text {
+        width: 50%;
+        top: 20%;
     }
 }
 

@@ -92,7 +92,7 @@ hr {
 }
 
 .location:hover {
-    color: rgba(188,0,45,255);
+    color: rgba(188, 0, 45, 255);
 }
 
 .myAirport {
@@ -156,13 +156,46 @@ hr {
         font-size: 12px;
     }
 
+    .myVenue {
+        position: relative;
+        width: 25%;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .myAirport {
+        position: relative;
+        width: 25%;
+        height: auto;
+        left: 38%;
+        margin-top: 4%;
+    }
+
     .Access {
-        width: 100px;
+        width: 40%;
+        left: 57%;
+        margin-top: 7%;
     }
 
     .informations h1 {
         font-size: 20px;
     }
+
+    .Access h1 {
+        font-family: "Venarotta", sans-serif;
+        font-size: 15px;
+        font-weight: 1000;
+        margin: 0
+    }
+
+    .Access h2 {
+        font-family: "Roboto Regular", sans-serif;
+        font-size: 8px;
+        font-weight: lighter;
+        color: darkgrey;
+        margin: 5px 0;
+    }
+
 
     .informations a {
         font-size: 12px;
@@ -185,7 +218,9 @@ hr {
     }
 
     .Access {
-        width: 200px;
+        width: 40%;
+        left: 54%;
+        margin-top: 7%;
     }
 
     .stationJapanese {

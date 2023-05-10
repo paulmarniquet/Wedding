@@ -138,15 +138,20 @@ h1 {
 
 @media (max-width: 415px) {
     .phrase p {
-        font-size: 12px;
+        position: relative;
+        width: 100%;
+        color: rgba(0,0,0, 0.7);
+        text-align: center;
+        font-size: 10px;
+        letter-spacing: 2px;
     }
 
     .phrase {
         text-align: center;
         margin-top: 20%;
-        width: 250px;
+        width: 90%;
         height: 250px;
-        margin-left: calc(50% - 125px);
+        margin-left: calc(50% - 45%);
         background-size: 50%;
     }
 
@@ -179,7 +184,12 @@ h1 {
 
 @media (min-width: 768px ) and (max-width: 1024px) {
     .phrase p {
-        font-size: 25px;
+        position: relative;
+        width: 100%;
+        color: rgba(0,0,0, 0.7);
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 2px;
     }
 
     .phrase {
