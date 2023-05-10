@@ -2,26 +2,20 @@
     <div class="myTitle">
         <div class="title" v-motion :initial="{opacity: 0}"
              :enter="{ opacity: 1, transition: { opacity: {duration: 2000, delay: 3000}}}">
-            <h1>marry saturday</h1>
+            <h1>save the date</h1>
         </div>
         <div class="hidden-text" v-motion :initial="{opacity: 1}"
              :enter="{ opacity: 0, transition: { opacity: {duration: 300, delay: 2400}}}">
             <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1000}}}">土</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1000}}}">日</span>
             <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1100}}}">曜</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1100}}}">付</span>
             <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1200}}}">日</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1200}}}">を</span>
             <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1300}}}">に</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1300}}}">保</span>
             <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1400}}}">結</span>
-            <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1500}}}">婚</span>
-            <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1600}}}">す</span>
-            <span v-motion :initial="{opacity: 0}"
-                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1700}}}">る</span>
+                  :enter="{ opacity: 1, transition: { opacity: {duration: 100, delay: 1400}}}">存</span>
         </div>
         <div class="circles">
             <div class="circle" style="background-color: rgba(255, 251, 150, 0.3)"></div>
@@ -68,7 +62,7 @@ export default {
 
 .title {
     position: relative;
-    width: 50%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;

@@ -1,6 +1,7 @@
 <template>
     <div class="phrase">
-        <p>Join the celebration as Zoe and Taisuke say "I do" in the beautiful Odawara Castle.</p>
+        <p>Celebrate love with us at the breathtaking Odawara Castle as Zoe and Taisuke tie the knot.</p>
+        <P>Join us for an unforgettable wedding experience filled with joy, laughter, and cherished moments !</p>
     </div>
     <div class="informations">
         <div class="disposition">
@@ -57,14 +58,24 @@ export default {
     width: 100%;
     height: 400px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-family: "Roboto Regular", sans-serif;
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 22px;
+    letter-spacing: 3px;
     background-image: url("../assets/blue.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 25%;
+}
+
+.phrase p {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0;
+    color: rgba(0,0,0, 0.7);
+    text-align: center;
 }
 
 .theplace {
