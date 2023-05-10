@@ -8,7 +8,7 @@
             <h1>8-10 Jonai, Odawara</h1>
             <h1>Kanagawa 250-0014</h1>
             <p class="stationJapanese">報徳二宮神社</p>
-            <a href="https://goo.gl/maps/bKQozUkwRBjHt8aa6" class="location">Google Map</a>
+            <a href="https://goo.gl/maps/bKQozUkwRBjHt8aa6" class="location">> map</a>
 
         </div>
         <div class="myAirport" v-motion
@@ -33,7 +33,7 @@
             <h1>Odakyu Line</h1>
             <h2 class="infos">Romance Car : 75 minutes from Shinjuku Station</h2>
             <h2 class="infos">Express: 92 minutes from Shinjuku Station / 58 minutes from Machida Station</h2>
-            <a href="https://www.hotoku.co.jp/access/" class="location">www.hotoku.co.jp/access</a>
+            <a href="https://www.hotoku.co.jp/access/" class="location">> hotoku access</a>
         </div>
     </div>
 </template>
